@@ -15,5 +15,6 @@ use App\Http\Controllers\exampleController;
 */
 
 Route::get('/', [exampleController::class, "homepage"]);
-
 Route::get('/about', [exampleController::class, "aboutPage"] );
+
+Route::post('/register', );
