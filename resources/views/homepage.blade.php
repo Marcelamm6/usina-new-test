@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header class="header-bar mb-3">
+    <header style="background-color: #0062cc;" class="header-bar mb-3">
       <div class="container d-flex flex-column flex-md-row align-items-center p-3">
-        <h4 class="my-0 mr-md-auto font-weight-normal"><a href="/" class="text-white">Sistema de Usina</a></h4>
+        <h4 class="my-0 mr-md-auto font-weight-normal"><a href="/"  style="font-family: roboto; font-size: 32px;" class="text-white">Sistema de Usina</a></h4>
         <form action="#" method="POST" class="mb-0 pt-2 pt-md-0">
           <div class="row align-items-center">
             <div class="col-md mr-0 pr-md-0 mb-3 mb-md-0">
@@ -25,7 +25,7 @@
               <input name="loginpassword" class="form-control form-control-sm input-dark" type="password" placeholder="Senha" />
             </div>
             <div class="col-md-auto">
-              <button class="btn btn-primary btn-sm">Entrar</button>
+              <button style="background:#28a745; font-family: roboto;"class="btn btn-primary btn-sm">Entrar</button>
             </div>
           </div>
         </form>
@@ -61,7 +61,7 @@
               <input name="password" id="password-register-confirm" class="form-control" type="password" placeholder="senha" />
             </div>
 
-            <button type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">Criar Conta</button>
+            <button style="background:#28a745; font-family: roboto;" type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">Criar Conta</button>
           </form>
         </div>
       </div>
