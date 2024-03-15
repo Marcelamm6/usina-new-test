@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
-    <header style="background-color: #0062cc;" class="header-bar mb-3">
+  <body style="background: url('images/background.jpg'); background-repeat: no-repeat;  background-size: 1800px 900px;" >
+
+    <header style="background-color: #000;" class="header-bar mb-3">
       <div class="container d-flex flex-column flex-md-row align-items-center p-3">
         <h4 class="my-0 mr-md-auto font-weight-normal"><a href="/"  style="font-family: roboto; font-size: 32px;" class="text-white">Sistema de Usina</a></h4>
         <form action="#" method="POST" class="mb-0 pt-2 pt-md-0">
@@ -25,7 +26,7 @@
               <input name="loginpassword" class="form-control form-control-sm input-dark" type="password" placeholder="Senha" />
             </div>
             <div class="col-md-auto">
-              <button style="background:#28a745; font-family: roboto;"class="btn btn-primary btn-sm">Entrar</button>
+              <button style="font-family: roboto;"class="btn btn-primary btn-sm">Entrar</button>
             </div>
           </div>
         </form>
@@ -33,11 +34,11 @@
     </header>
     <!-- header ends here -->
 
-    <div class="container py-md-5">
+    <div style="background-color:#fff; border-radius: 5px; padding: 3rem" class="container py-md-5">
       <div class="row align-items-center">
         <div class="col-lg-7 py-3 py-md-5">
-          <h1 class="display-3">Remember Writing?</h1>
-          <p class="lead text-muted">Are you sick of short tweets and impersonal &ldquo;shared&rdquo; posts that are reminiscent of the late 90&rsquo;s email forwards? We believe getting back to actually writing is the key to enjoying the internet again.</p>
+          <h1 class="display-3">Bem-vindo!</h1>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eum architecto in voluptatum id iure et? Architecto laboriosam ex suscipit ipsa, quasi dolorum consectetur corporis cumque atque harum? Nostrum, odio?</p>
         </div>
         <div class="col-lg-5 pl-lg-5 pb-3 py-lg-5">
           <form action="#" method="POST" id="registration-form">
@@ -61,16 +62,13 @@
               <input name="password" id="password-register-confirm" class="form-control" type="password" placeholder="senha" />
             </div>
 
-            <button style="background:#28a745; font-family: roboto;" type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">Criar Conta</button>
+            <button style="background:#0062cc; font-family: roboto;" type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">Criar Conta</button>
           </form>
         </div>
       </div>
     </div>
 
-    <!-- footer begins -->
-    <footer class="border-top text-center small text-muted py-3">
-      <p class="m-0">Copyright &copy; 2022 <a href="/" class="text-muted">OurApp</a>. All rights reserved.</p>
-    </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
